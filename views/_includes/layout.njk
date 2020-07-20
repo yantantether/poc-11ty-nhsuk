@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="/nhsuk.css">
 </head>
 
+<body>
 {{ header({
     "showNav": "false",
     "showSearch": "false",
@@ -17,14 +18,11 @@
   })
 }}
 
-<body>
-
   <div class="nhsuk-width-container">
     <main class="nhsuk-main-wrapper" id="maincontent" role="main">
     {{ content | safe }}
     </main>
   </div>
-</body>
 
 {{ footer({
   "links": [
@@ -50,3 +48,5 @@
     }
   ]
 })}}
+
+</body>

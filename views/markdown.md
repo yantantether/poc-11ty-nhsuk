@@ -1,13 +1,8 @@
 ---
 showNav: true
-title: My Rad Markdown Blog Post
+title: Markdown page
 ---
-# my page title
+# Markdown page
 
-stuff
-
-## secondary heading
-
-more stuff
-
+* [HTML](/)
 
