@@ -1,0 +1,52 @@
+{% from 'header/macro.njk' import header %}
+{% from 'footer/macro.njk' import footer %}
+
+<head>
+  <link rel="stylesheet" href="/nhsuk.css">
+</head>
+
+{{ header({
+    "showNav": "false",
+    "showSearch": "false",
+    "primaryLinks": [
+      {
+        "url"  : "https://www.nhs.uk/conditions",
+        "label" : "Health A-Z"
+      }
+    ]
+  })
+}}
+
+<body>
+
+  <div class="nhsuk-width-container">
+    <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+    {{ content | safe }}
+    </main>
+  </div>
+</body>
+
+{{ footer({
+  "links": [
+    {
+      "URL": "#",
+      "label": "Accessibility statement"
+    },
+    {
+      "URL": "#",
+      "label": "Contact us"
+    },
+    {
+      "URL": "#",
+      "label": "Cookies"
+    },
+    {
+      "URL": "#",
+      "label": "Privacy policy"
+    },
+    {
+      "URL": "#",
+      "label": "Terms and conditions"
+    }
+  ]
+})}}
