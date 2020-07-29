@@ -20,7 +20,9 @@
 
   <div class="nhsuk-width-container">
     <main class="nhsuk-main-wrapper" id="maincontent" role="main">
-    {{ content | safe }}
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
     </main>
   </div>
 
