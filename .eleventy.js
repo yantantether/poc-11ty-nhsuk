@@ -13,9 +13,10 @@ module.exports = function(eleventyConfig) {
   const md = markdownIt().use(markdownItClass, classMapping)
   eleventyConfig.setLibrary("md", md);
 
-  eleventyConfig.setLibrary("njk", new Nunjucks.Environment(
+  var nunjucksEnvironment = new Nunjucks.Environment(
     new Nunjucks.FileSystemLoader(["views/_includes", "node_modules/nhsuk-frontend/packages/components"])
-  ));
+  )
+  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
   eleventyConfig.addPassthroughCopy(
     {"node_modules/nhsuk-frontend/packages/assets": "/"});
