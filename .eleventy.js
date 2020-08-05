@@ -1,8 +1,10 @@
-let Nunjucks = require("nunjucks");
-let pluginSass = require("eleventy-plugin-sass");
-let markdownIt = require('markdown-it')
-let markdownItClass = require('@toycode/markdown-it-class')
-let classMapping = require('./class-mapping.json'); //(with path)
+const Nunjucks = require("nunjucks");
+const pluginSass = require("eleventy-plugin-sass");
+const markdownIt = require('markdown-it')
+const markdownItClass = require('@toycode/markdown-it-class')
+const classMapping = require('./class-mapping.json'); //(with path)
+const yaml = require("js-yaml");
+
 
 module.exports = function(eleventyConfig) {
     
@@ -17,6 +19,8 @@ module.exports = function(eleventyConfig) {
     new Nunjucks.FileSystemLoader(["views/_includes", "node_modules/nhsuk-frontend/packages/components"])
   )
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
+
+  eleventyConfig.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   eleventyConfig.addPassthroughCopy(
     {"node_modules/nhsuk-frontend/packages/assets": "/"});

@@ -1,0 +1,10 @@
+---
+pagination:
+    data: jobs
+    size: 1
+    alias: job
+    resolve: values
+permalink: "jobs/{{ job.jobtitle | slug }}/"
+---
+
+{{ job.jobtitle }}

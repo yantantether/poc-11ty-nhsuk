@@ -1,0 +1,5 @@
+<ul>
+{% for name, item in jds %}
+  <li>{{ item | dump | safe }}</li>
+{% endfor %}
+</ul>
