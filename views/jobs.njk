@@ -4,7 +4,43 @@ pagination:
     size: 1
     alias: job
     resolve: values
-permalink: "jobs/{{ job.jobtitle | slug }}/"
+permalink: "jobs/{{ job.title | slug }}/"
 ---
+{% from "summary-list/macro.njk" import summaryList %}
 
-{{ job.jobtitle }}
+<h1>{{ job.title }}</h1>
+
+{{ summaryList({
+  rows: [
+    {
+      key: {
+        text: "Service area"
+      },
+      value: {
+        text: job.service_area
+      }
+    },
+    {
+      key: {
+        text: "AfC Band"
+      },
+      value: {
+        text: job.band
+      }
+    },
+    {
+      key: {
+        text: "Locations"
+      },
+      value: {
+        text: job.locations
+      }
+    }
+  ]
+}) 
+}}
+
+<p>{{ job.purpose }}</p>
+
+<h2>Skills</h2>
+

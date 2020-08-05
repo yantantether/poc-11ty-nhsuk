@@ -1,0 +1,152 @@
+service_area: Digital
+title: Developer
+band: 6
+locations:
+  - Stella House, Newcastle
+  - Middlebrook, Bolton
+purpose: >
+  NHSBSA Digital directive has a number of IT services that it develops and supports, both digital and classic in nature.
+  As a Developer your role is to provide a specialist development experience and knowledge across a range of IT skills underpinned by theory to actively develop new services and will include some or all of the following activities:
+  - Software Design and Development,
+  - 2nd/3rd Line support
+  - Manual and automated Testing,
+  - Cloud deployment platforms and techniques,
+  - Database design,
+  - Implementation and support
+  - Continuous improvement and lifecycle management
+skills:
+  accountable:
+    specialist:
+      - Evaluating, analysing, and interpreting complex information and requirements to inform development of applications and services, providing options to support a range of solutions.
+      - Applying appropriate methods and procedures throughout the full development lifecycle in accordance with IT standards and customer requirements.
+      - Designing, developing and delivering features and benefits for new and existing services that provide business value.
+      - Oversees effective running of bespoke services, third-party applications and configurable of the shelf products (CoTS) and services, providing advice and guidance to other teams to support resolution of problems and major incidents.
+      - Using incident, problem, request and change management processes and systems to support the successful implementation of system enhancements and fault resolutions, in a timely manner.
+      - Implementing standards and policies, pro-actively identifying and proposing improvements or enhancements to meet changing needs.
+      - Proactively engaging in conversations to support the on-going development and maintenance of your own skills and knowledge, including attending relevant Communities of Practice.
+      - Communicating complex information effectively across a wide range of people and levels of understanding, including both technical and non-technical audiences, to influence, negotiate and secure value based outcomes for the delivery of services.
+      - Planning your own work to achieve agreed objectives, prioritising multiple and sometimes conflicting deliverables, escalating as appropriate, any issues which may impact deadlines.
+      - Leading, participating and contributing to quality assurance reviews of your and others work through a variety of approaches such as peer review, learning logs, and engaging in appropriate communities of practice.
+      - Regularly horizon scans to keep abreast of new and emerging technologies and standards to support innovative and creative delivery of business objectives.
+    staff:
+      - Support relevant recruitment and selection in line with organisational processes.
+      - Mentor and coach other team members, and apprentices to enable the on-going personal development and growth of skills within the team.
+      - Co-ordinates work other team members in line with agreed delivery of services
+    financial-management:
+      - Maintain an awareness of financial and personal implications in the use of a range of resources.
+      - Contribute to and prepare proposals for change including producing necessary estimates, mandates and business cases within the technology department.
+    relationship-management:
+      - Identifying opportunities and engaging in partnership working with other individuals, groups and agencies.
+      - Effectively engage and collaborate across multiple disciplines to ensure consistent approaches, methods, standards, and patterns are holistically applied.
+    information-management:
+      - Maintaining an awareness of agreed service levels, KPI&#39;s and standards within team, reviewing own performance and adapt own approach to maximise the delivery to support and meet agreed standards.
+      - Monitoring and reporting on a number of areas including agreed service levels, KPI&#39;s and standards within team, generating reports to agreed frequency, methods and processes.
+  additional:
+    - Undertake additional duties and responsibilities in line with the overall purpose of your role and as agreed by your line manager.
+    - Demonstrate NHSBSA values and core capabilities in all aspects of your work.
+    - Foster an environment where your own and colleagues&#39; safety and well-being is promoted.
+    - Contribute to a culture which values diversity and inclusion.
+    - Comply with NHSBSA policies, procedures and protocols as they apply to your role.
+working-relationships:
+  responsible-to:
+    - Team Manager
+    - Professional Lead for Developmentk
+  key-relationships:
+    - Professional Lead for Development
+    - Project Team:
+      - Product Owner
+      - Delivery Manager
+      - Business Analyst
+      - Service Designer
+      - Technical Architect
+      - User Interaction Designer
+      - Content Designer
+      - User Researcher
+      - Software Developer (front end and back end)
+      - Tester
+      - Platform Engineer
+    - End users
+    - Business stakeholders
+    - Suppliers
+    - Peers through the software development community
+
+person-specification:
+  service-area: Digital
+  job-title: Developer
+  personal-qualities-knowledge-skills:
+    essential:
+      - Working collaboratively within a multi-disciplinary team setting, both internal and externally.
+      - Management of own work including individual tasks, whilst maintaining team deliverables.
+      - Pro-active approach to self-learning and continuous professional development.
+      - Specialist knowledge consistent with attainment of degree level qualifications.
+      - Business change and rationalisation of systems processes and services.
+      - Analysis of requirements, design and development of applications to meet business needs.
+      - Analysis and investigation of ICT issues, within new and existing services to enable business continuity and resolve major incidents
+      - Use of version control systems such as Github/Gitlab, SVN
+    desirable:
+      - Awareness of digital channel shift and approaches
+      - Knowledge of design principles (Object oriented design; common design patterns; responsive web design; security by design; government service design)
+    demonstrated-by:
+      - Application Form
+      - Interview
+  experience:
+    essential:
+      - Performing a range of varied work activities in a range of structured and unstructured environments.
+      - Software development lifecycle, including but not limited to developing code based applications, quality assurance and test processes, and supporting in a 2nd/3rd line environment.
+      - One or more of the following:
+        - Waterfall Process
+        - Agile
+        - Java
+        - Spring
+        - Jasper
+        - HTML/ CSS/ JavaScript
+      - Communicating complex technical information easily to both technical and non-technical people.
+      - Mentoring, coaching and sharing best practice with a range of staff.
+      - Rapidly absorbing complex technical and business information to learn new technologies keep skills up to date and adapt to change.
+      - Identifying risks and escalating them as appropriate.
+      - Writing and maintaining system documentation.
+      - Developing and maintaining clean, production ready code across a variety of programming languages and frameworks.
+       Experience of
+      - Presenting work at user groups and conferences
+      - Meeting strict service requirements (KPIs, SLAs, OLAs)
+    desirable:
+      - Developing or supporting large scale or highly critical services.
+      - Upgrading, converting, modernising or digitising applications/services.
+      - Identifying, assessing and managing risk.
+      - Knowledge of SQL and its use in one or more DBMS (Oracle, PostgreSQL, SQL Server, DB2).
+      - Front-end web development skills
+    demonstrated-by:
+      - Application Form
+      - Interview
+    qualifications:
+      essential:
+        - Degree calibre with relevant in-depth knowledge of the subject matter
+        - Relevant experience of the subject matter
+      desirable:
+        - Qualifications in appropriate IT certification (eg ITIL, TOGAF, Agile, ISTQB etc)
+      demonstrated-by:
+        - Application Form
+        - Certificates
+        - Interview
+
+capability-frameworks:
+  nhsbsa-core-capabilities:
+    level-3:
+      - Confidently engages with stakeholders to advocate and generate commitment to goals
+      - Engages with a variety of stakeholders, listening and responding to their feedback, and encouraging others to do the same
+      - Analyses and identifies risks in order to make decisions that take account of the wider context, including diversity and sustainability
+      - Identifies people/teams across the business that face similar challenges and opportunities in order to work with them to produce the best outcome for the NHSBSA
+      - Uses creative methods to involve and generate new thinking from others
+  sfia:
+    level-3:
+      - Influence
+      - Complexity
+      - Business Skills
+    level-4:
+      - Autonomy
+    level-5:
+      - Development and implementation/Systems design
+      - Delivery and Operation/Application Support
+      - Relationship and Engagement/ Relationship Management
+      - Change and Transformation/Requirements Definition and Management
+      - Delivery and Operation/Service Acceptance
