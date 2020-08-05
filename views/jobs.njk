@@ -42,7 +42,7 @@ permalink: "jobs/{{ job.title | slug }}/"
         text: "Locations"
       },
       value: {
-        html: ( ul(job.locations) )
+        html: ul(job.locations)
       }
     }
   ]
@@ -53,3 +53,50 @@ permalink: "jobs/{{ job.title | slug }}/"
 
 <h2>Skills</h2>
 
+<h3>Acountable</h3>
+
+{{ ul(job.skills.accountable.specialist) }}
+
+<h3>Staff</h3>
+
+{{ ul(job.skills.accountable.staff) }}
+
+<h3>Financial management</h3>
+
+{{ ul(job.skills.accountable.financial_management) }}
+
+<h3>Relationship management</h3>
+
+{{ ul(job.skills.accountable.relationship_management) }}
+
+<h3>Information management</h3>
+
+{{ ul(job.skills.accountable.information_management) }}
+
+<h3>Additional skills</h3>
+
+{{ ul(job.skills.additional) }}
+
+<h2>Working relationships</h2>
+
+{{ summaryList({
+  rows: [
+    {
+      key: {
+        text: "Responsible to"
+      },
+      value: {
+        html: ul(job.working_relationships.responsible_to)
+      }
+    },
+    {
+      key: {
+        text: "Key relationships"
+      },
+      value: {
+        html: ul(job.working_relationships.key_relationships)
+      }
+    }
+  ]
+}) 
+}}

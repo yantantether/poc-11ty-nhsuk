@@ -32,39 +32,38 @@ skills:
       - Support relevant recruitment and selection in line with organisational processes.
       - Mentor and coach other team members, and apprentices to enable the on-going personal development and growth of skills within the team.
       - Co-ordinates work other team members in line with agreed delivery of services
-    financial-management:
+    financial_management:
       - Maintain an awareness of financial and personal implications in the use of a range of resources.
       - Contribute to and prepare proposals for change including producing necessary estimates, mandates and business cases within the technology department.
-    relationship-management:
+    relationship_management:
       - Identifying opportunities and engaging in partnership working with other individuals, groups and agencies.
       - Effectively engage and collaborate across multiple disciplines to ensure consistent approaches, methods, standards, and patterns are holistically applied.
-    information-management:
-      - Maintaining an awareness of agreed service levels, KPI&#39;s and standards within team, reviewing own performance and adapt own approach to maximise the delivery to support and meet agreed standards.
-      - Monitoring and reporting on a number of areas including agreed service levels, KPI&#39;s and standards within team, generating reports to agreed frequency, methods and processes.
+    information_management:
+      - Maintaining an awareness of agreed service levels, KPIs and standards within team, reviewing own performance and adapt own approach to maximise the delivery to support and meet agreed standards.
+      - Monitoring and reporting on a number of areas including agreed service levels, KPIs and standards within team, generating reports to agreed frequency, methods and processes.
   additional:
     - Undertake additional duties and responsibilities in line with the overall purpose of your role and as agreed by your line manager.
     - Demonstrate NHSBSA values and core capabilities in all aspects of your work.
     - Foster an environment where your own and colleagues&#39; safety and well-being is promoted.
     - Contribute to a culture which values diversity and inclusion.
     - Comply with NHSBSA policies, procedures and protocols as they apply to your role.
-working-relationships:
-  responsible-to:
+working_relationships:
+  responsible_to:
     - Team Manager
-    - Professional Lead for Developmentk
-  key-relationships:
     - Professional Lead for Development
-    - Project Team:
-      - Product Owner
-      - Delivery Manager
-      - Business Analyst
-      - Service Designer
-      - Technical Architect
-      - User Interaction Designer
-      - Content Designer
-      - User Researcher
-      - Software Developer (front end and back end)
-      - Tester
-      - Platform Engineer
+  key_relationships:
+    - Professional Lead for Development
+    - Product Owner
+    - Delivery Manager
+    - Business Analyst
+    - Service Designer
+    - Technical Architect
+    - User Interaction Designer
+    - Content Designer
+    - User Researcher
+    - Software Developer (front end and back end)
+    - Tester
+    - Platform Engineer
     - End users
     - Business stakeholders
     - Suppliers
