@@ -7,6 +7,15 @@ pagination:
 permalink: "jobs/{{ job.title | slug }}/"
 ---
 {% from "summary-list/macro.njk" import summaryList %}
+{%- macro ul(items) %}
+  <ul>
+    {% for item in items %}
+      <li>
+        {{ item | trim }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro -%}
 
 <h1>{{ job.title }}</h1>
 
@@ -33,7 +42,7 @@ permalink: "jobs/{{ job.title | slug }}/"
         text: "Locations"
       },
       value: {
-        text: job.locations
+        html: ( ul(job.locations) )
       }
     }
   ]
