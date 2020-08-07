@@ -1,54 +1,58 @@
 {% from 'header/macro.njk' import header %}
 {% from 'footer/macro.njk' import footer %}
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/nhsuk.css">
+  </head>
 
-<head>
-  <link rel="stylesheet" href="/nhsuk.css">
-</head>
+  <body>
+    {{ header({
+        "showNav": "false",
+        "showSearch": "false",
+        "primaryLinks": [
+          {
+            "url"  : "https://www.nhs.uk/conditions",
+            "label" : "Health A-Z"
+          }
+        ]
+      })
+    }}
 
-<body>
-{{ header({
-    "showNav": "false",
-    "showSearch": "false",
-    "primaryLinks": [
-      {
-        "url"  : "https://www.nhs.uk/conditions",
-        "label" : "Health A-Z"
-      }
-    ]
-  })
-}}
+    <div class="nhsuk-width-container">
+      <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+        {% block content %}
+          {{ content | safe }}
+        {% endblock %}
+      </main>
+    </div>
 
-  <div class="nhsuk-width-container">
-    <main class="nhsuk-main-wrapper" id="maincontent" role="main">
-      {% block content %}
-        {{ content | safe }}
-      {% endblock %}
-    </main>
-  </div>
-
-{{ footer({
-  "links": [
-    {
-      "URL": "#",
-      "label": "Accessibility statement"
-    },
-    {
-      "URL": "#",
-      "label": "Contact us"
-    },
-    {
-      "URL": "#",
-      "label": "Cookies"
-    },
-    {
-      "URL": "#",
-      "label": "Privacy policy"
-    },
-    {
-      "URL": "#",
-      "label": "Terms and conditions"
-    }
-  ]
-})}}
-
-</body>
+    {{ footer({
+      "links": [
+        {
+          "URL": "#",
+          "label": "Accessibility statement"
+        },
+        {
+          "URL": "#",
+          "label": "Contact us"
+        },
+        {
+          "URL": "#",
+          "label": "Cookies"
+        },
+        {
+          "URL": "#",
+          "label": "Privacy policy"
+        },
+        {
+          "URL": "#",
+          "label": "Terms and conditions"
+        }
+      ]
+    })}}
+  </body>
+</html>
